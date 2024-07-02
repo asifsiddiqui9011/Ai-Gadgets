@@ -1,0 +1,87 @@
+.navigationBar {
+    display: flex;
+    justify-content:space-between;
+    width:100%;
+    margin: auto;
+    position: fixed;
+    z-index: 7;
+
+  }
+  
+  .logo {
+    position: relative;
+    /* height: 100px; */
+    width: 180px;
+  }
+  
+  .homebtns {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    gap: 20px;
+  
+  } 
+  .iconsdiv {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+   } 
+  
+   #icons {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: blueviolet;
+   } 
+  
+    .logindiv {
+      display: flex;
+      justify-content: center;
+      height: 40px;
+      margin: 10px;
+      padding:10px;
+      gap: 5px;
+    }  
+   
+  #DP {
+    color: aqua;
+    background-image: -webkit-image-set("../google.png");
+    background-size: cover;
+    padding: 5px;
+  }
+
+  link{
+    text-decoration: none;
+  }
+
+  .carticon {
+    height: 30px;
+    width: 30px;
+    align-items: center;
+  }
+
+  .cart-counter{
+    display: flex;
+    background-color:white;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    color:blueviolet;
+    margin-top: -20px;
+    margin-left: -15px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0.1, 0.45);
+  }
+
+  .cart-counter-div{
+    display: flex;
+    height: 40px;
+    width: 45px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  

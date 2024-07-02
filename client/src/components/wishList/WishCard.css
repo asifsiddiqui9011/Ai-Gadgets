@@ -1,0 +1,46 @@
+
+
+.wishcard {
+    height:500px;
+    width:305px;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid rgb(244, 243, 244);
+    box-shadow: 10px 10px 15px -10px rgba(0,0,0,0.2);
+}
+.wishcardimg img {
+   height:300px;
+   width:305px;
+   border-radius: 10px;
+}
+
+
+.wishCardsinfo {
+    display: inline;
+}
+
+.wishcardPrice {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+
+p{
+    overflow: hidden;
+    color: black;
+}
+
+.description{
+    display: flex;
+   flex-direction: column;
+    height:125px;
+    width: 305px;
+    overflow:hidden;
+}
+h3{
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,41 @@
+.CardsDiv {
+    height:500px;
+    width:305px;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid rgb(244, 243, 244);
+    box-shadow: 10px 10px 15px -10px rgba(0,0,0,0.2);
+}
+.cardimg img {
+   height:300px;
+   width:305px;
+   border-radius: 10px;
+}
+
+
+.Cardsinfo {
+   display: flex;
+   flex-direction: column;
+    height:125px;
+    width: 305px;
+    overflow:hidden;
+}
+
+.Cardsinfo h3{
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.Cardsinfo p{
+    overflow: hidden;
+    color: black;
+}
+
+.cardPrice {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}

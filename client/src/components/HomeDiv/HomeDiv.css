@@ -1,0 +1,33 @@
+.Maindiv {
+    display: flex;
+    justify-content: space-around;
+    height: 550px;
+    /* z-index: -10; */
+    /* padding-top: 80px; */
+
+} 
+
+.leftContainer {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+    padding-top: 100px;
+
+
+} 
+
+.rightContainer {
+    display: contents;
+} 
+
+#rightimage {
+    height: 550px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.maindiv {
+    z-index: -10;
+}

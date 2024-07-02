@@ -1,0 +1,34 @@
+.order-div{
+    width: 80%;
+    /* background-color: aqua; */
+    border-radius: 15px;
+    border: 2px solid grey;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+    margin: 20px 0px;
+    padding: 5px;
+}
+
+.order-tracker{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-desc{
+    display: flex;
+    /* padding: 5px; */
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+    border-radius: 10px;
+
+}
+
+#orderadd{
+    width: 450px;
+}
+
+#ordername{
+    width: 200px;
+}

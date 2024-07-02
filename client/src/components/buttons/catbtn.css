@@ -1,0 +1,18 @@
+.HomeCtBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   height: 90px;
+   width: 90px;
+   align-items: center;
+   background-color: white;
+   border-radius: 15px;
+}
+
+.homebtndivv{
+    border-radius: 15px;
+    padding: 3px;
+    border: 2px solid rgb(244, 243, 244);
+    box-shadow: 15px -10px 35px -5px rgba(0,0,0,0.4);
+}

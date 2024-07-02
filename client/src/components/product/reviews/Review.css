@@ -1,0 +1,29 @@
+.reviewbox{
+    width: 620px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+#reviewimg{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+
+#reviewstar{
+    font-size: 22px;
+    /* color: rgb(255, 186, 10); */
+    color: gold;
+}
+
+#nameofreviewer{
+    padding: 2px;
+}
+
+.reviewuser{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
